@@ -1,0 +1,7 @@
+STORE  M [ FP + x ] <= eval ( input () )
+LOAD  r1 <= M [ FP + x ]
+ADDI  r2 <= r0 + 3333
+LOAD  r3 <= M [ FP + w ]
+ADDI  r4 <= r0 + 5555
+ADDI  r5 <= r0 + 8888
+ADDI  r6 <= r0 + 4444

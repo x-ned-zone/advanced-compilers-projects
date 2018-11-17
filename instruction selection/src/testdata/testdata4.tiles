@@ -1,0 +1,10 @@
+MOVE : (MEM : (+ : ((--), CONST x) ) ), (--)
+SEQ : (--), (--)
+MEM : (+ : (--), CONST x)
+CONST 1
+CONST 2222
+CALL : (name : print) , (--) ) 
+CONST 1111
+CALL : (name : print) , (--) ) 
+SEQ : (SEQ : (SEQ : (SEQ : (SEQ : (SEQ : (CJUMP, (--), LT, (--), NAME, NAME,LABEL), (--)), JUMP ) , LABEL) , (--) ), LABEL)
+SEQ : (--), (--)

@@ -1,0 +1,5 @@
+CONST 1
+CONST 3
++ : (--), (--)
+- : (--), CONST 2
+CALL : (name : print) , (--) ) 

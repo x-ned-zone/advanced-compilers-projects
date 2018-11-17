@@ -1,0 +1,7 @@
+LOAD  r1 <= M [ FP + w ]
+ADDI  r2 <= r0 + 10
+LOAD  r3 <= M [ FP + x ]
+ADDI  r4 <= r0 + 90
+ADDI  r5 <= r0 + 2222
+ADDI  r6 <= r0 + 1111
+ADDI  r7 <= r0 + 4001

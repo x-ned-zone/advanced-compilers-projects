@@ -1,0 +1,6 @@
+MOVE : (MEM : (+ : ((--), CONST x) ) ), (--)
+SEQ : (--), (--)
+MEM : (+ : (--), CONST x)
++ : (--), CONST 1
+CALL : (name : print) , (--) ) 
+SEQ : (--), (--)

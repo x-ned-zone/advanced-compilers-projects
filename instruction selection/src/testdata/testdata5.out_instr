@@ -1,0 +1,4 @@
+LOAD  r1 <= M [ FP + w ]
+ADDI  r2 <= r0 + 1
+ADDI  r3 <= r0 + 8989
+ADDI  r4 <= r0 + 4001

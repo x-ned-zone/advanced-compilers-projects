@@ -1,0 +1,5 @@
+STORE  M [ FP + x ] <= eval ( input () )
+LOAD  r1 <= M [ FP + x ]
+ADDI  r2 <= r0 + 1
+ADDI  r3 <= r0 + 2222
+ADDI  r4 <= r0 + 1111
