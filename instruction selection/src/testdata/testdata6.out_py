@@ -1,0 +1,8 @@
+x = eval ( input () )
+v1 = x
+v2 = 3333
+v3 = w
+v4 = 5555
+v5 = 8888
+v6 = 4444
+if ( v1 < v2 ): while (v3 < v4): print (v5)    else: print (v6)

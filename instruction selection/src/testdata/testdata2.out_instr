@@ -1,0 +1,4 @@
+ADDI  r3 <= r0 + 1
+ADDI  r4 <= r0 + 3
+ADD  r2 <= v0 + v1
+SUBBI  r1 <= v0 + v1 - 2

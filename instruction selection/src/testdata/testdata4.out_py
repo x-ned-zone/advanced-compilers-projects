@@ -1,0 +1,6 @@
+x = eval ( input () )
+v1 = x
+v2 = 1
+v3 = 2222
+v4 = 1111
+if ( v1 < v2 ): print (v3)    else: print (v4)

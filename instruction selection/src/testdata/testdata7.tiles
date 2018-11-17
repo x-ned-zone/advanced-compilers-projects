@@ -1,0 +1,14 @@
+MEM : (+ : (--), CONST w)
+CONST 10
+MEM : (+ : (--), CONST x)
+CONST 90
+CONST 2222
+CALL : (name : print) , (--) ) 
+CONST 1111
+CALL : (name : print) , (--) ) 
+SEQ : (SEQ : (SEQ : (SEQ : (SEQ : (SEQ : (CJUMP, (--), LT, (--), NAME, NAME,LABEL), (--)), JUMP ) , LABEL) , (--) ), LABEL)
+SEQ : ( SEQ : (SEQ : (SEQ : (SEQ : LABEL, (CJUMP, (--), LT, (--),  LABEL, LABEL )), LABEL), (--)), JUMP:(NAME)),LABEL
+SEQ : (--), (--)
+CONST 4001
+CALL : (name : print) , (--) ) 
+SEQ : (--), (--)
