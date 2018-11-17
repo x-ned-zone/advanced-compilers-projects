@@ -1,6 +1,8 @@
 ## Symbol Tables
 
-###Aims 
+A Compilers phenomenon on Semantic Analysis
+
+### Aims 
 > To build a functional hash-table implementation of a Symbol Table to handle simple constant definitions and uses in a statically-scoped block structured language.
 > Use a stack to maintain copies of hash table arrays for outer scopes. 
 > Use a hash table array size of N=5, with chaining for collision resolution. 
@@ -38,10 +40,12 @@ Programming language used: Python
 ### Hash-Table Plan and Structure
 > Structure contains hashtable using an array with positions containing arraylists for variables and stack used for scoping.
 
-[ al1 ] -> (:) -> (:)     [     ]
-[     ]                   [ ar3 ] -> (:) -> (:)
-[ al2 ]                   [     ]
-[     ]                   [     ]
-   ^                         ^
-   |                         |
-[  A _  _  _  _   _  _  _  _  _  _ B ]  -> Stack
+![Symbol table](https://github.com/maxwell1992/advanced-compilers-projects/tree/symbol-table/symbol%20tables/symboltable.jpg)
+
+[al1] -> (:) -> (:)     [   ]
+[   ]                   [ar3] -> (:) -> (:)
+[al2]                   [   ]
+[   ]                   [   ]
+  ^                       ^
+  |                       |
+[ A _  _  _  _   _  _  _  _  _ B ]  -> Stack
