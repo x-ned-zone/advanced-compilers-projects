@@ -7,22 +7,22 @@ The IR tree language is similar to that used in the Appel textbook.
 ```
 op [CONST [x], CONST [y]]
 SEQ[ SEQ[ SEQ[ SEQ[ SEQ[ SEQ[ SEQ[ SEQ[
-										MOVE[TEMP[t1],CONST[x]],
-										MOVE[TEMP[t2],CONST[y]]
-									],
-									LABEL[start]
-							],
-							CJUMP[<,TEMP[t1],TEMP[t2],NAME[t],NAME[f]]
-						],
-						LABEL[f]
-					],
-					loop_body
-				],
-				MOVE[TEMP[t1],+[TEMP[t1],CONST[increment]]]
-			],
-			JUMP[NAME[start]]
-	],
-	LABEL[t]
+                                        MOVE[TEMP[t1],CONST[x]],
+                                        MOVE[TEMP[t2],CONST[y]]
+                                    ],
+                                    LABEL[start]
+                            ],
+                            CJUMP[<,TEMP[t1],TEMP[t2],NAME[t],NAME[f]]
+                        ],
+                        LABEL[f]
+                    ],
+                    loop_body
+                ],
+                MOVE[TEMP[t1],+[TEMP[t1],CONST[increment]]]
+            ],
+            JUMP[NAME[start]]
+    ],
+    LABEL[t]
 ]
 ```
 ... where op is one of +, -, *, /
@@ -44,4 +44,6 @@ with leading “=” symbols on each line to denote the nesting of child element
 - The program output is in the same format and is written to standard output (screen).
 
 I devised my own algorithm convert(input and output) flat structure tree representation entails to list object.
+- Algorithm implemented and is easy to understand from the code on 'generete AST'.
 
+Further code improvement and developments were halted but can be done anytime later.
