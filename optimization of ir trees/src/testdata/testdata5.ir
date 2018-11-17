@@ -1,0 +1,15 @@
+MOVE
+=MEM
+==+
+===TEMP
+====fp
+===CONST
+====k_a
+=+
+==*
+===CONST
+====12
+===CONST
+====20
+==CONST
+===4
