@@ -86,3 +86,6 @@ The simplified Python 3 subset must include at least:
 - Accurate operation and test cases for if. 10 pnts
 - Accurate operation and test cases for while. 10 pnts
 - Exhaustive testing / creativity. 10 pnts
+
+---
+Further code improvements and development halted but will be made in time.
