@@ -41,11 +41,3 @@ Programming language used: Python
 > Structure contains hashtable using an array with positions containing arraylists for variables and stack used for scoping.
 
 ![Symbol table](https://github.com/maxwell1992/advanced-compilers-projects/tree/symbol-table/symbol%20tables/symboltable.jpg)
-
-[al1] -> (:) -> (:)     [   ]
-[   ]                   [ar3] -> (:) -> (:)
-[al2]                   [   ]
-[   ]                   [   ]
-  ^                       ^
-  |                       |
-[ A _  _  _  _   _  _  _  _  _ B ]  -> Stack
