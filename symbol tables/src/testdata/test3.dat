@@ -1,0 +1,24 @@
+beginscope
+define x 1
+use x
+beginscope
+define y 2
+use x
+use y
+
+beginscope
+define x 3
+use x
+use y
+endscope
+beginscope
+define y 4
+use x
+use y
+endscope
+use x
+use y
+endscope
+use x
+use y
+endscope

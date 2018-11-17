@@ -1,0 +1,5 @@
+beginscope
+define a 1
+use a
+endscope
+use a

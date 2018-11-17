@@ -1,0 +1,13 @@
+beginscope
+define a 1
+define b 2
+use a
+use b
+beginscope
+define a 3
+use a
+use b
+endscope
+use a
+use b
+endscope
